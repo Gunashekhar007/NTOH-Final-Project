@@ -163,7 +163,7 @@ int main() {
 
 
         char filename[128];
-        snprintf(filename, sizeof(filename), "wave_data/frame_%05d.csv", k);
+        snprintf(filename, sizeof(filename), "wave_data_Japan/frame_%05d.csv", k);
         write_csv(filename, z, NX, NY);
 
     }
